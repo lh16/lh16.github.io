@@ -8,33 +8,35 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 小马过河                          # the main title
+title: Chirpy                          # the main title
 
-tagline: Writing code is like crossing a river！  # it will display as the sub-title
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
- Writing code is like crossing a river.
+  A minimal, portfolio, sidebar,
+  bootstrap Jekyll theme with responsive web design
+  and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://lh16.github.io'
+url: 'protocol://domain'
 
-author: lh16                  # change to your full name
+author: your_full_name                  # change to your full name
 
-avatar: /assets/img/sample/avatar2.jpg   # support internet resources
+avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: lh16             # change to your github username
+  username: github_username             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: lh16                  # it will shows as the copyright owner in Footer
-  email: 1039495585@qq.com             # change to your email address
+  name: your_full_name                  # it will shows as the copyright owner in Footer
+  email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/lh16       # change to your github homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
