@@ -1,11 +1,11 @@
 # Site settings
 title: BoHu
-url: "http://zhaoyuxiang.cn/blog"    # the protocol and hostname of your site, eg. `http://zhaoyuxiang.cn/blog`
+url: "https://lh16.github.io"    # the protocol and hostname of your site, eg. `http://zhaoyuxiang.cn/blog`
 baseurl: "/" # the prefix of your site uri, eg. `/bohu-jekyll-theme` or just one slash `/`
 #timezone: Asia/Shanghai
-description: 天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3、JavaScript、JQuery等编程经验总结分享。
+description: debug #天道总司的个人博客网站,前端HTML、HTML5、CSS、CSS3、JavaScript、JQuery等编程经验总结分享。
 # Your information
-email: me@zhaoyuxiang.cn
+email: 1039495585@qq.com
 author: Clark #yourname #天道总司
 place: yourhometown #杭州
 domain: yourdoamain #互联网
@@ -13,15 +13,15 @@ company: yourcompany #Jeeyoo
 position: yourjob #Technical Support
 school: yourschool #浙江科技学院
 major: yourmajoy #测控技术与仪器
-resume: "http://zhaoyuxiang.cn/cv"
-profile: Time is money. #yourmotto #聪明在于勤奋，天才在于积累。
-twitter_username: zyx19936688
-weibo_username:  zhaoyuxiang
-github_username:  Clark-Zhao
+resume: "https://lh16.github.io"
+profile: Writing code is like crossing a river! #yourmotto #聪明在于勤奋，天才在于积累。
+twitter_username: -
+weibo_username:  -
+github_username:  lh16
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-disqus_shortname: zhaoyuxiang   
+disqus_shortname: 小马过河
 # get one: https://disqus.com/admin/signup/
 # duoshuo_shortname: clark-zhao  
 # get one: http://duoshuo.com/create-site/
