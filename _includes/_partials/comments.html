@@ -2,7 +2,7 @@
 
 {% if page.comments %}
   <div class="comments" id="comments">
-    <!-- comment -->
+    <!-- comment start   模板配置中的代码会报错，临时自行add处理!! 20201019-->
     <div>
       <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
       <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -24,9 +24,7 @@
         gitalk.render('gitalk-container')
       </script>
     </div>
-
-
-
+    <!-- comment end-->
 
     {% if site.duoshuo and site.duoshuo.shortname or site.duoshuo_shortname %}
       <div class="ds-thread" data-thread-key="{{ page.url | relative_url }}"
