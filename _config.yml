@@ -438,7 +438,7 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: true
+  enable: false
   clientID: 6bc09325e15fbb04522b # 54730ddf7b9420460c03
   clientSecret: 549de7a71a0b4dc3ef13c4a396b1eefb23cee87f # c05684701b25ff1c19ea0c01ce4d80c125e0707d
   repo: commentdata # colingpt.github.io
