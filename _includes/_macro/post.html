@@ -361,7 +361,9 @@
           repo: 'commentdata',
           owner: 'lh16',
           admin: ['lh16'],
-          id: location.pathname,      // Ensure uniqueness and length less than 50
+          id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+          title: document.title,
+          body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
           //distractionFreeMode: false  // Facebook-like distraction free mode
         })
 
