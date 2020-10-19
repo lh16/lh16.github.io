@@ -16,9 +16,9 @@
         repo: '{{ site.gitalk.repo }}',
         owner: '{{ site.gitalk.owner }}',
         admin: ['{{ site.gitalk.owner }}'],
-        id: md5('{{ page.url }}'),//md5(location.pathname)
-        title: document.title,//
-        body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),//
+        id: '{{ page.url }}',//md5('{{ page.url }}'),//md5(location.pathname)
+        //title: document.title,//
+        //body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),//
         labels: ['gitalk'],
         perPage: 50,
         distractionFreeMode: true
