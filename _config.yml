@@ -320,8 +320,8 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -333,7 +333,7 @@ wechat_subscriber:
 
 # Declare license on posts
 post_copyright:
-  enable: true
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
