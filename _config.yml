@@ -538,15 +538,15 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>本站访客数
+  site_uv_header: <i class="fa fa-user"></i> 本站访客数
   site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>本站总访问量
+  site_pv_header: <i class="fa fa-eye"></i> 本站总访问量
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>总阅读量
+  page_pv_header: <i class="fa fa-file-o"></i>阅读
   page_pv_footer: 次
 
 
@@ -579,7 +579,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
