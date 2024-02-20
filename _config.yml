@@ -4,11 +4,11 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 小马过河
+title: 小马过河R
 subtitle: 个人博客
 description: 大家叫我小马的时候，我不是在写bug就是在写bug的路上(o^^o)
 #Writing code is like crossing a river！
-author: lh16
+author: 小马过河R
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -80,7 +80,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "lh16, NexT, 小马过河"
+keywords: "NexT, 小马过河R"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
